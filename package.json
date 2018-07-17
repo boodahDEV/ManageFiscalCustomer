@@ -1,0 +1,16 @@
+{
+  "name": "managefiscalcustomer",
+  "version": "1.0.0",
+  "description": "Pruebas de conexion y manejo de web service y sql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@boodah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "git": "^0.1.5",
+    "mssql": "^4.1.0"
+  }
+}
