@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jquery</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // var arreglo = new Array(); //asi se crea un arreglo simple
+      // arreglo.push(3);
+      // arreglo.push("Hola mundo");
+      // arreglo[0] = "boodah";
+      // console.log(arreglo[0]);
+
+      // var arreglo = [1,'Hola mundo',3.5]; // asi asigno el tamaño del arreglo y los datos
+      // //arreglo.length  -  me devuelve el tamaño del arreglo
+      // for (var i = 0; i < arreglo.length; i++) {
+      //   console.log(arreglo[i]);
+      // }
+
+      //Ejmplo matriz o bidimencional
+      var arr = [[1,2,3],['a','b','c']];
+      for (var i = 0; i < arr[1].length; i++) {
+        console.log(arr[1][i]);
+      }
+
+      //convertir los datos de un arreglo en cadena.
+      var cadena = arr[1].join(',');// interesante darle formato a esto! de acuerdo a lo que escriba, Ejmplo salida es a,b,c
+      console.log(cadena);
+
+      var arreglo = cadena.split('b'); // aqui le digo separame los datos de la cadena cada cuando alla una 'b'
+      console.log(arreglo[1]);   //quedaria asi [0]='a,' y [1]= ',c'
+    </script>
+
+  </body>
+</html>
